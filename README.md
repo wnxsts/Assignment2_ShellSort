@@ -73,7 +73,7 @@ Graphs and Results
 
 Time vs n
 
-📊 (screenshot/plot here)
+
 
 Runtime increases with input size n = 100 … 100,000.
 	•	Shell’s gaps: slowest, close to quadratic growth.
@@ -82,20 +82,20 @@ Runtime increases with input size n = 100 … 100,000.
 
 Comparisons vs n
 
-📊 (screenshot/plot here)
+
 	•	Shell’s sequence performs the most comparisons.
 	•	Knuth reduces comparisons significantly.
 	•	Sedgewick minimizes comparisons, especially on large n.
 
 Swaps vs n
 
-📊 (screenshot/plot here)
+
 	•	Similar trends: Sedgewick has the fewest swaps.
 	•	Random and reversed inputs require more swaps than sorted/nearly sorted.
 
 Accesses vs n
 
-📊 (screenshot/plot here)
+
 	•	Access patterns scale with comparisons and swaps.
 	•	Sedgewick again shows the most efficient access counts.
 
@@ -127,4 +127,5 @@ Summary
 	•	Knuth: O(n^(3/2))
 	•	Sedgewick: O(n^(4/3))
 	•	Algorithm remains in-place and memory-efficient.
+
 
