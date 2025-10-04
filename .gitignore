@@ -37,3 +37,16 @@ build/
 ### Mac OS ###
 .DS_Store.idea/
 *.csv
+
+# IDE
+.idea/
+*.iml
+
+# Build
+target/
+
+# Local artifacts
+*.csv
+
+# OS
+.DS_Store
